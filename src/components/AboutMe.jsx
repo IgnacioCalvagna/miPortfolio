@@ -2,16 +2,16 @@ import React from "react";
 import '../assets/css/aboutMe.css'
 // import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Rosa from "react-on-scroll-animation";
-import html from "../assets/img/skills/html.png";
-import css from "../assets/img/skills/css.png";
-import js from "../assets/img/skills/js.png";
-import node from "../assets/img/skills/node.png";
-import react from "../assets/img/skills/react.png";
-import redux from "../assets/img/skills/redux.png";
-import postman from "../assets/img/skills/postman.png";
-import github from "../assets/img/skills/github.png";
-import bootstrap from "../assets/img/skills/bootstrap.png";
-import psql from "../assets/img/skills/psql.png";
+import html from "../img/skills/html.png";
+import css from "../img/skills/css.png";
+import js from "../img/skills/js.png";
+import node from "../img/skills/node.png";
+import react from "../img/skills/react.png";
+import redux from "../img/skills/redux.png";
+import postman from "../img/skills/postman.png";
+import github from "../img/skills/github.png";
+import bootstrap from "../img/skills/bootstrap.png";
+import psql from "../img/skills/psql.png";
 
 const AboutMe = () => {
   return (

@@ -1,6 +1,6 @@
 import React from "react";
 import data from "../fakeData.json";
-import sativaCo from "../assets/img/proyectos/sativaCo.png";
+import sativaCo from "../img/proyectos/sativaCo.png";
 import "../assets/css/proyects.css";
 const Proyects = () => {
   const misProyectos = data.proyectos.map((p,i) => {

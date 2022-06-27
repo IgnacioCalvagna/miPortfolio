@@ -2,9 +2,9 @@ import React from "react";
 import {} from "react-router-dom";
 
 import "../assets/css/footer.css";
-import ig from "../assets/img/ig.png";
+// import ig from "../img/ig.png";
 // import linkedin from "../assets/img/in.png";
-import githubFooter from "../assets/img/githubFooter.png";
+// import githubFooter from "../img/githubFooter.png";
 const Footer = () => {
   return (
     <>
@@ -13,7 +13,7 @@ const Footer = () => {
           <h2 className="MIP">Contactame tambien en </h2>
           <a href="https://github.com/IgnacioCalvagna" target={"_blank"}rel="noopener noreferrer">
             {" "}
-            <img className="logoFooter" src={githubFooter} width="5%" alt="" />
+            {/* <img className="logoFooter" src={githubFooter} width="5%" alt="" /> */}
           </a>
           <a
             href="https://www.linkedin.com/in/ignacio-calvagna/"
@@ -22,7 +22,7 @@ const Footer = () => {
             {/* <img className="logoFooter" src={linkedin} width="4.8%" alt="" />{" "} */}
           </a>
           <a href="https://www.instagram.com/nachitocal/" target={"_blank"}rel="noopener noreferrer">
-            <img className="logoFooter" src={ig} width="4%" alt="" />
+            {/* <img className="logoFooter" src={ig} width="4%" alt="" /> */}
           </a>
         </div>
         <div>

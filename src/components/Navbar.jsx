@@ -1,7 +1,7 @@
 import React from "react";
 // import Idiomas from "./Idiomas";
 import "../assets/css/navbar.css";
-import Idiomas from "./Idiomas";
+
 // import { NavLink } from "react-router-dom";
 const Navbar = () => {
   return (
