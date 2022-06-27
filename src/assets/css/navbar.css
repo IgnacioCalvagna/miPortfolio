@@ -1,0 +1,13 @@
+.miBtn{
+    color:white;
+    border-bottom-style: none;
+}
+.miBtn:hover{
+    color:white;
+    border-bottom-style: none;
+}
+.navbar{
+    position: fixed;
+    width: 100%;
+    list-style: none;
+}

@@ -1,0 +1,21 @@
+.algo{
+    background-image: url(/Users/ignaciocalvagna/porro420/portfolio/portfolio/src/assets/img/gif.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    box-shadow: 23em;
+    
+    padding: 18%;
+}
+.headDesc{
+    margin-bottom: 15%;
+    color:white;
+    position:top;
+}
+.sobreMi{
+    font-size: x-large;
+    margin-top: 5%;
+}
+@media (max-width: 600px) {
+   
+}

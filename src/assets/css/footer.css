@@ -1,0 +1,23 @@
+a{
+    text-decoration: none;
+}
+.redes{
+    width: 33%;
+}
+@media (max-width: 600px) {
+    .totFooter{
+        display: flex;
+    }
+    .redes{
+        width: 33%;
+    }
+    .logoFooter{
+        width: 15%;
+    }
+    .MIP{
+        font-size: small;
+    }
+    a{
+        text-decoration: none;
+    }
+}

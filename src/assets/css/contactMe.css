@@ -1,0 +1,20 @@
+.miForm{
+    margin: 0 auto;
+    width: 80%;
+}
+.sendBtn{
+    margin-bottom: 5%;
+}
+.elh3{
+    text-align: center;
+}
+
+@media (max-width: 600px) {
+    .miForm{
+        text-align: center;
+        width: 100%;
+    }
+    .sendBtn{
+        margin-bottom: 5%;
+    }
+}

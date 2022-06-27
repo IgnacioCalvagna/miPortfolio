@@ -1,0 +1,19 @@
+.mitem{
+    padding: 15%;
+}
+
+
+
+.item-producto{
+    display: flex;
+    margin:15%;
+    
+}
+.img-producto{
+    width: 55%;
+    float: left;
+}
+.desc-producto{
+    width: 55%;
+    float: right;
+}
