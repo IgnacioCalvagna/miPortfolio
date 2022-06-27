@@ -3,7 +3,7 @@ import {} from "react-router-dom";
 
 import "../assets/css/footer.css";
 import ig from "../assets/img/ig.png";
-import linkedin from "../assets/img/in.png";
+// import linkedin from "../assets/img/in.png";
 import githubFooter from "../assets/img/githubFooter.png";
 const Footer = () => {
   return (
@@ -19,7 +19,7 @@ const Footer = () => {
             href="https://www.linkedin.com/in/ignacio-calvagna/"
             target="_blank" rel="noopener noreferrer"
           >
-            <img className="logoFooter" src={linkedin} width="4.8%" alt="" />{" "}
+            {/* <img className="logoFooter" src={linkedin} width="4.8%" alt="" />{" "} */}
           </a>
           <a href="https://www.instagram.com/nachitocal/" target={"_blank"}rel="noopener noreferrer">
             <img className="logoFooter" src={ig} width="4%" alt="" />

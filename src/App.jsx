@@ -21,7 +21,7 @@ function App() {
         <div id="contactMe">
           <ContactMe />
         </div>
-        <Footer />
+        {/* <Footer /> */}
       </div>
     </>
   );
