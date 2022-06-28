@@ -5,9 +5,6 @@ const Header = () => {
   return (
     <>
         
-
-           
-        
         <img src={gif} width='100%' />
             
         
