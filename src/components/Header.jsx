@@ -1,13 +1,16 @@
 import React from 'react'
 import '../assets/css/header.css'
+import gif from '../assets/img/gif.gif'
 const Header = () => {
   return (
     <>
-        <div className="algo">
+        
 
-            <p>Ignacio Calvagna </p>
-            <p>Desarrollador Web Front-End FullStack </p>
-        </div>
+           
+        
+        <img src={gif} width='100%' />
+            
+        
     </>
   )
 }
