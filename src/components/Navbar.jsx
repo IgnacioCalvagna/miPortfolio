@@ -12,6 +12,7 @@ const navbar = () => {
               <Nav.Link href="#link">About me</Nav.Link>
               <Nav.Link href="#link">Proyects</Nav.Link>
               <Nav.Link href="#link">Contact me</Nav.Link>
+              <Nav.Link href="#link">Algo mas</Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Container>
