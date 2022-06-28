@@ -6,6 +6,7 @@ const Header = () => {
         <div className="algo">
 
             <p>Ignacio Calvagna </p>
+            <p>Desarrollador Web Front-End FullStack </p>
         </div>
     </>
   )
