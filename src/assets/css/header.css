@@ -3,15 +3,21 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    box-shadow: 23em;
     
-    padding: 18%;
+
 }
 .headDesc{
     margin-bottom: 15%;
     color:white;
     position:top;
 }
+.yo{
+    top: -650px;
+    left: 150px;
+    z-index: 1150px;
+    position: relative;
+}
+
 .sobreMi{
     font-size: x-large;
     margin-top: 5%;

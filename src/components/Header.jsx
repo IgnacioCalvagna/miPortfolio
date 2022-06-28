@@ -1,18 +1,20 @@
-import React from 'react'
-import '../assets/css/header.css'
-import gif from '../assets/img/gif.gif'
+import React from "react";
+import "../assets/css/header.css";
+import Rosa from "react-on-scroll-animation";
+import gif from "../assets/img/gif.gif";
 const Header = () => {
   return (
     <>
-        
-        <div className="algo">
-        <h1>Ignacio Calvagana</h1>
-        <h2>Desarrollador web full stack</h2>
+      <img src={gif} width="100%" />
 
-        </div>
-            
+      <div className="yo">
+        <Rosa animation={"fade-right"}>
+          <h1>Ignacio Calvagana</h1>
+          <h2>Desarrollador Web Front-End FullStack</h2>
+        </Rosa>
+      </div>
     </>
-  )
-}
+  );
+};
 
-export default Header
+export default Header;
