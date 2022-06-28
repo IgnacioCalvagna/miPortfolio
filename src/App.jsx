@@ -18,6 +18,7 @@ function App() {
       <Header />
       <AboutMe />
       <Proyects />
+      <br />
       <ContactMe/>
       
     </>
