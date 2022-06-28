@@ -1,7 +1,7 @@
 import "./assets/css/App.css";
 // import AboutMe from "./components/AboutMe";
 // import Header from "./components/Header";
-// import Navbar from "./components/Navbar";
+import Navbar from "./components/Navbar";
 // import Proyects from "./components/Proyects";
 // import ContactMe from "./components/ContactMe";
 // import Footer from "./components/Footer";
@@ -9,6 +9,7 @@ import "./assets/css/App.css";
 function App() {
   return (
     <>
+    <Navbar/>
      <h1>Mi portfolio </h1>
     </>
   );
