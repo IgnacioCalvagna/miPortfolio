@@ -11,3 +11,11 @@ body {
   color: white;
 }
 
+
+
+@media (max-width: 1000px) {
+ 
+  .contacto{
+    margin-top: 150%;
+  }
+}

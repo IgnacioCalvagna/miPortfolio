@@ -24,8 +24,8 @@ const Proyects = () => {
 
   return (
     <>
-    <h3 className='miH3' id='proyects'> Proyects</h3>
     <div>
+    <h3 className='miH3' id='proyects'> Proyects</h3>
       {misProyectos}
     </div>
     </>

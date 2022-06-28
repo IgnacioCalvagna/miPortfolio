@@ -21,7 +21,7 @@
 
 @media (max-width: 1000px) {
     .proyects{
-        margin-bottom: 5%;
+        margin-bottom: 55%;
     }
     .item-producto{
         display: block;
@@ -34,7 +34,7 @@
     }
     .img-producto{
         width: 100%;
-        float: left;
+   
     }
 
 }

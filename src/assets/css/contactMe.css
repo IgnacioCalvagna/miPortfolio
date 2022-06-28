@@ -5,11 +5,21 @@
 .sendBtn{
     margin-bottom: 5%;
 }
-.elh3{
+.miH3{
     text-align: center;
+}
+.contacteme{
+    margin-top: 5%;
 }
 
 @media (max-width: 1000px) {
+    .contacteme{
+        margin-top: 5%;
+    }
+    .miH3{
+        text-align: center;
+        margin-top: 5%;
+    }
     .miForm{
         text-align: center;
         width: 100%;
