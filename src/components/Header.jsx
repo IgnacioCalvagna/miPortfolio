@@ -5,9 +5,12 @@ const Header = () => {
   return (
     <>
         
-        <img src={gif} width='100%' />
+        <div className="algo">
+        <h1>Ignacio Calvagana</h1>
+        <h2>Desarrollador web full stack</h2>
+
+        </div>
             
-        
     </>
   )
 }
