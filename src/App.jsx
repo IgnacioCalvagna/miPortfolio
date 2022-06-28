@@ -1,4 +1,5 @@
 import "./assets/css/App.css";
+import Header from "./components/Header";
 // import AboutMe from "./components/AboutMe";
 // import Header from "./components/Header";
 import Navbar from "./components/Navbar";
@@ -10,6 +11,7 @@ function App() {
   return (
     <>
     <Navbar/>
+    <Header/>
      <h1>Mi portfolio </h1>
     </>
   );
