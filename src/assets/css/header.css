@@ -11,6 +11,15 @@
     position: relative;
 }
 
+.info{
+    display: block;
+}
+ .limit{
+     font-size:xxx-large;
+     width: 50%;
+     margin:0;
+     padding:0;
+ }
 .sobreMi{
     font-size: x-large;
     margin-top: 5%;
@@ -18,9 +27,34 @@
 @media (max-width: 1000px) {
  
     .yo{
-        top: -170px;
-        left: 15px;
+        top: -290px;
+        left: 95px;
         z-index: 1150px;
         position: relative;
+    }
+    .limit{
+        font-size:xx-large;
+        width: 50%;
+        margin:0;
+        padding:0;
+    }
+}
+
+
+
+
+@media (max-width: 450px) {
+
+    .yo{
+        top: -190px;
+        left: 25px;
+        z-index: 1150px;
+        position: relative;
+    }
+    .limit{
+        font-size:large;
+        width: 50%;
+        margin:0;
+        padding:0;
     }
 }

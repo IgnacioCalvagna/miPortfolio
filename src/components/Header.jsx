@@ -5,11 +5,16 @@ import gif from "../assets/img/gif.gif";
 const Header = () => {
   return (
     <>
-      <img autoplay loop muted cover src={gif} alt="..." width="100%" />
+    <div >
+      <img autoPlay loop muted  src={gif} alt="..." width="100%" />
+    </div>
       <div className="yo">
       <Rosa animation="fade-right" anchorPlacement="top-bottom" delay={800}>
-          <h1>Ignacio Calvagana</h1>
-          <h2>Desarrollador Web Front-End FullStack</h2>
+        <div className='info' >
+          <span className="limit">Ignacio Calvagana</span>
+          <br />
+          <span className="limit">Desarrollador Web Front-End FullStack</span>
+        </div>
         </Rosa>
       </div>
     </>

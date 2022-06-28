@@ -13,6 +13,9 @@
 .cuarto{
     width: 35%;
 }
+.sobreMi{
+    width:90%
+}
 
 @media (max-width: 1000px) {
     .total{
@@ -23,18 +26,20 @@
         margin: 0 auto;
     }
     .cuarto{
-        width: 75%;
-        margin: 0 auto;
+        width: 100%;
+        text-align: center;    
     }
     .misLogos{
-        display: flex;
         margin-bottom: 5%;
+        text-align: center;
+        margin:0 auto;
     }
-    .logos{
-        width: 20%;
-
-    }
+   
     .sendBtn{
         margin-top: 4%;
     }
 }
+
+
+
+
