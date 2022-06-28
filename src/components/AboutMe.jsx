@@ -16,21 +16,21 @@ import psql from "../assets/img/skills/psql.png";
 const AboutMe = () => {
   return (
     <>
-      <Rosa animation={"fade-down"}>
+      
         {" "}
         <h3 className="miH3" id="aboutMe">
           Acerca de mi
         </h3>
-      </Rosa>
+      
 
       <div className="total container">
         <div className="tresCuartos">
-          <Rosa animation={"fade-right"}>
+      
             <p className="sobreMi">
               Mi nombre es Ignacio Calvagna tengo 28 años, Desarrollador Web FullStack orientado a Front-End. <br />
               Hace algunos años me interese en el mundo de la tecnología y comence a estudiar programacion
             </p>
-          </Rosa>
+      
           <Rosa animation={"zoom-in-up"}>
             <p className="sobreMi">
               Soy estudiate de segundo año de la carrera de Analista de
