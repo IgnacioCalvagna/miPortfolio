@@ -7,7 +7,7 @@ const Header = () => {
     <>
       <img autoplay loop muted cover src={gif} alt="..." width="100%" />
       <div className="yo">
-        <Rosa animation={"fade-right"}>
+      <Rosa animation="fade-right" anchorPlacement="top-bottom" delay={800}>
           <h1>Ignacio Calvagana</h1>
           <h2>Desarrollador Web Front-End FullStack</h2>
         </Rosa>
