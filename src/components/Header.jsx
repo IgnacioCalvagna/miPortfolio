@@ -5,7 +5,7 @@ import gif from "../assets/img/gif.gif";
 const Header = () => {
   return (
     <>
-      <img src={gif} alt="..." width="100%" />
+      <img autoplay loop muted cover src={gif} alt="..." width="100%" />
       <div className="yo">
         <Rosa animation={"fade-right"}>
           <h1>Ignacio Calvagana</h1>

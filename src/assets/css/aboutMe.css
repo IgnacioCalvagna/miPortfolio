@@ -14,7 +14,7 @@
     width: 35%;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 1000px) {
     .total{
         display: block;
     }    
