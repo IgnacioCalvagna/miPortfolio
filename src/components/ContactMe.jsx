@@ -3,10 +3,7 @@ import "../assets/css/contactMe.css";
 const ContactMe = () => {
   return (
     <div className="contacteme container">
-      <h3 className="miH3">
-        si te gusta mi trabajo, no dude en ponerse en contacto conmigo. Estoy
-        aquí para ayudarle a usted.
-      </h3>
+    
       <form className="miForm ">
         <div className="row">
           <div className="col-6">

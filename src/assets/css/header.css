@@ -5,6 +5,7 @@
     position:top;
 }
 .yo{
+    width: 70%;
     top: -650px;
     left: 150px;
     z-index: 1150px;
@@ -41,7 +42,7 @@
 }
 
 
-/* 
+
 
 @media (max-width: 450px) {
 
@@ -57,4 +58,4 @@
         margin:0;
         padding:0;
     }
-} */
+}

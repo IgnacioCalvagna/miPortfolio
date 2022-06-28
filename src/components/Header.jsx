@@ -9,12 +9,12 @@ const Header = () => {
       <img autoPlay loop muted  src={gif} alt="..." width="100%" />
     </div>
       <div className="yo">
-      <Rosa animation="fade-right" anchorPlacement="top-bottom" delay={800}>
-        <div className='info' >
+      <Rosa  animation="fade-right" anchorPlacement="top-bottom" delay={800}>
+        
           <span className="limit">Ignacio Calvagana</span>
           <br />
           <span className="limit">Desarrollador Web Front-End FullStack</span>
-        </div>
+        
         </Rosa>
       </div>
     </>

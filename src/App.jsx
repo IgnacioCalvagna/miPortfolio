@@ -17,12 +17,10 @@ function App() {
       <Navbar />
       <Header />
       <AboutMe />
-      <div>
-        <Proyects />
-      </div>
-      <br />
-      <hr />
-      
+
+      <Proyects />
+
+      <ContactMe/>
     </>
   );
 }
