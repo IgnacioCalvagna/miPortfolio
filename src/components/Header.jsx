@@ -6,10 +6,10 @@ const Header = () => {
   return (
     <>
     <div >
-      <img autoPlay loop muted  src={gif} alt="..." width="100%" />
+      <img autoPlay src={gif} alt="..." width="100%" />
     </div>
       <div className="yo">
-      <Rosa  animation="fade-right" anchorPlacement="top-bottom" delay={800}>
+      <Rosa  animation="fade-right" anchorPlacement="top-bottom" >
         
           <span className="limit">Ignacio Calvagana</span>
           <br />
