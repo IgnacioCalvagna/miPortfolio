@@ -2,8 +2,11 @@ import React from "react";
 import "../assets/css/contactMe.css";
 const ContactMe = () => {
   return (
-    <div id="contactMe" className="contacteme container">
-    
+    <div id="contactMe" className=" container">
+      <h3 className="miH3">Contactame</h3>
+
+
+      <sub>Si te gusto mi trabajo no dudes con consultarme. con gusto respondere tu  consulta lo mas rapido que pueda </sub>
       <form className="miForm ">
         <div className="row">
           <div className="col-6">
