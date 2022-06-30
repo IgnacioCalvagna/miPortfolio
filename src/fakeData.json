@@ -17,6 +17,12 @@
       "titulo": "Satindica",
       "img": ["./assets/img/inWorking.jpg"],
       "description": "Pagina desarrollada para Satindica, una PYME que se dedica a vender productos cannabicos medicinales, en los que destaca notablemente el aciete de cannabis.El cliente me encargo la pagina para agilizar y brindar a sus clientes un mejor servicio "
+    },
+    {
+      "id": 4,
+      "titulo": "Gift-experience",
+      "img": ["./assets/img/inWorking.jpg"],
+      "description": "Proyecto e-commerce realizado durante el curso de ReactJs en CoderHouse usando firebase. el mismo esta enfocado a regalar/se experiencias de diversas categorias desde actividades extremas como tirarse en paracaidas hasta un dia de spa todo incluido"
     }
   ]
 }
