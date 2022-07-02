@@ -1,6 +1,10 @@
-
+.header{
+    opacity: .5;    
+    height:1040px;
+    
+}
 .headDesc{
-    margin-bottom: 15%;
+    
     color:white;
     position:top;
 }
@@ -12,6 +16,13 @@
     position: relative;
 }
 
+
+.downArrow{
+    position: relative;
+    left: 55%;
+    bottom: -300px;
+}
+
 .info{
     display: block;
 }
@@ -21,12 +32,26 @@
      margin:0;
      padding:0;
  }
+ .limit2{
+    font-size:xxx-large;
+    width: 50%;
+    margin:0;
+    padding:0;
+}
 .sobreMi{
     font-size: x-large;
     margin-top: 5%;
 }
 @media (max-width: 1000px) {
  
+    .laImg{
+        width: 100%;
+    }
+    .header{
+        
+        height: 855px;
+    }
+
     .yo{
         top: -290px;
         left: 95px;
@@ -47,15 +72,19 @@
 @media (max-width: 450px) {
 
     .yo{
-        top: -190px;
+        top: -690px;
         left: 25px;
         z-index: 1150px;
         position: relative;
+
     }
     .limit{
-        font-size:large;
+        font-size:xxx-large;  
         width: 50%;
         margin:0;
         padding:0;
+    }
+    .limit2{
+        font-size:xx-large;
     }
 }

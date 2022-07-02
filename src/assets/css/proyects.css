@@ -1,9 +1,6 @@
 .mitem{
     padding: 15%;
 }
-
-
-
 .item-producto{
     display: flex;
     margin:15%;
@@ -27,6 +24,8 @@
     }
     .item-producto{
         display: block;
+        margin-top:5%;
+        margin-bottom:5%;
      
         
     }
@@ -36,6 +35,7 @@
     }
     .img-producto{
         width: 100%;
+        margin:0 auto;
    
     }
 

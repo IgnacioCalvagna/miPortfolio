@@ -17,27 +17,31 @@ const AboutMe = () => {
   return (
     <>
       
+     
+
+        <h3 className="miH3" >
         {" "}
-        <h3 className="miH3" id="aboutMe">
-          Acerca de mi
+        Acerca de mi 
         </h3>
       
-
-      <div className="total container">
-        <div className="tresCuartos">
+      <div className="total ">
+    
+        <div className="tresCuartos container ">
       
-            <p className="sobreMi">
+            <p className="sobreMi container">
+            Acerca de mi <br />
               Mi nombre es Ignacio Calvagna tengo 28 años, Desarrollador Web FullStack orientado a Front-End. <br />
               Hace algunos años me interese en el mundo de la tecnología y comence a estudiar programacion
             </p>
       
-          <Rosa animation={"zoom-in-up"}>
-            <p className="sobreMi">
+         
+            <p className="sobreMi container">
+                Acerca de mi
               Soy estudiate de segundo año de la carrera de Analista de
               Sistemas, egresado del coding bootcamp de Plataforma 5 de mas de 800 Hs. En donde aprendí todos los dias diversas tecnologías y tecnicas de programacion 
               Actualmente me encuentro haciendo un curso en CoderHouse de ReactJs para seguir profundizando en el mundo del front-end
             </p>
-          </Rosa>
+         
         </div>
         <div className="cuarto">
           <Rosa animation={"zoom-in-left"}>

@@ -5,7 +5,7 @@
 .sendBtn{
     margin-bottom: 5%;
 }
-.miH3{
+.mih3{
     text-align: center;
 }
 .contacteme{
@@ -16,9 +16,9 @@
     .contacteme{
         margin-top: 5%;
     }
-    .miH3{
+    .mih3{
         text-align: center;
-        margin-top: 5%;
+        margin-top: 20%;
     }
     .miForm{
         margin-top: 10%;
@@ -27,5 +27,9 @@
     }
     .sendBtn{
         margin-bottom: 5%;
+    }
+    .parrafito{
+        text-align: center;
+        word-break:break-all;
     }
 }

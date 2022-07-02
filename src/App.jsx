@@ -1,27 +1,28 @@
 import "./assets/css/App.css";
-import AboutMe from "./components/AboutMe";
-import ContactMe from "./components/ContactMe";
-import Header from "./components/Header";
-// import AboutMe from "./components/AboutMe";
-// import Header from "./components/Header";
 import Navbar from "./components/Navbar";
-import Proyects from "./components/Proyects";
+import Header from "./components/Header";
+import AboutMe from "./components/AboutMe";
+// import ProyectsContainer from "./components/ProyectsContainer";
 
-// import Proyects from "./components/Proyects";
-// import ContactMe from "./components/ContactMe";
-// import Footer from "./components/Footer";
+
+import ContactMe from "./components/ContactMe";
+import Footer from "./components/Footer";
 
 function App() {
   return (
-    <>
-      <Navbar />
-      <Header />
-      <AboutMe />
-
-      <Proyects />
-
-      <ContactMe/>
-    </>
+    <div id="home">
+      <Navbar /> <Header />{" "}
+      <div id="aboutMe">
+        {" "}
+        <AboutMe />
+      </div>{" "}
+      <div id="proyects">
+      
+        {/* <ProyectsContainer /> */}
+      </div>
+      <ContactMe />
+      <Footer />
+    </div>
   );
 }
 

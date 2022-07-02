@@ -1,20 +1,21 @@
+.miH3{
+    text-align: center;
+}
 .total{
     width: 100%;
     display: flex;
     margin-top: 5%;
     margin-bottom: 5%;
 }
-.miH3{
-    text-align: center;
-}
 .tresCuartos{
-    width: 65%;
+    width: 60%;
 }
 .cuarto{
-    width: 35%;
+    width: 40%;
 }
 .sobreMi{
-    width:90%
+    width:90%;
+    /* word-break:break-all; */
 }
 
 @media (max-width: 1000px) {
@@ -40,7 +41,12 @@
     }
     .sobreMi{
         width:100%;
+        font-size: 1.199em;
         text-align: center;
+        align-items: center;
+        word-wrap: break-word;
+        word-break: break-word;
+    
     }
 }
 
