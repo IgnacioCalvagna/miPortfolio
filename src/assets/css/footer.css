@@ -17,6 +17,15 @@ a{
     .MIP{
         font-size: small;
     }
+    .download{
+        text-align: center;
+        
+        
+    }
+    .pDelFooter{
+        text-align: center;
+        margin-top: 5%;
+    }
     a{
         text-decoration: none;
     }

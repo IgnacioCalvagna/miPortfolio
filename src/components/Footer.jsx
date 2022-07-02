@@ -1,14 +1,27 @@
-import React from 'react'
-import cv from './Cv-Ignacio-Calvagna.pdf'
+import React from "react";
+import cv from "./Cv-Ignacio-Calvagna.pdf";
+import '../assets/css/footer.css'
 const Footer = () => {
   return (
     <>
-    
-    <button className="btn btn-dark"><a href={cv}download="Cv-Ignacio-Calvagna.pdf">Download Text</a>
-</button>
-    
-    </>
-  )
-}
 
-export default Footer
+    <div className="download">
+
+      <button className=" btn btn-dark">
+        <a href={cv} download="Cv-Ignacio-Calvagna.pdf">
+          Descargar CV 
+        </a>
+      </button>
+    </div>
+
+    <div className='pDelFooter'>
+      <p>
+        Cv diseñado y desarrollado por Ignacio Calvagna <br />
+        Todos los derechos reservados © 2022 
+      </p>
+    </div>
+    </>
+  );
+};
+
+export default Footer;
