@@ -43,7 +43,12 @@
     margin-top: 5%;
 }
 @media (max-width: 1000px) {
- 
+    .downArrow{
+        position: relative;
+        left: 55%;
+        bottom: -260px;
+    }
+
     .laImg{
         width: 100%;
     }
