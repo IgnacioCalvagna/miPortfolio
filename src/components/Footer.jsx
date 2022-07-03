@@ -16,7 +16,7 @@ const Footer = () => {
 
     <div className='pDelFooter'>
       <p>
-        Cv diseñado y desarrollado por Ignacio Calvagna <br />
+        Portfolio diseñado y desarrollado por Ignacio Calvagna <br />
         Todos los derechos reservados © 2022 
       </p>
     </div>

@@ -45,8 +45,8 @@
 @media (max-width: 1000px) {
     .downArrow{
         position: relative;
+        bottom: -9em;
         left: 55%;
-        bottom: -240px;
     }
 
     .laImg{

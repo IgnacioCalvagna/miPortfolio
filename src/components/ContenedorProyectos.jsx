@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import fakeData from "../fakeData.json";
 import CaroucelProyectos from "./CaroucelProyectos";
+import '../assets/css/contenedorProyectos.css'
 
 const ContenedorProyectos = () => {
   const [proyectos, setProyectos] = useState([]);
@@ -11,6 +12,7 @@ const ContenedorProyectos = () => {
 
   return (
     <>
+        <h2 style={{textAlign: 'center'}} > Proyectos</h2>
       <CaroucelProyectos proyectos={proyectos} />
     </>
   );

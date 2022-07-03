@@ -4,7 +4,7 @@
 }
 .itemCarru{
     width: 100%;
-    display: flex;
+    display: block;
     justify-content: space-around;
     padding: 6%;
 }
@@ -14,5 +14,6 @@
 }
 .imagen{
     width:100%;
+    text-align:center;
     float:right;
 }

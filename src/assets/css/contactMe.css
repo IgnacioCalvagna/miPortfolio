@@ -11,6 +11,10 @@
 .contacteme{
     margin-top: 5%;
 }
+.parrafito{
+    font-size:1.3em;
+    text-align: center;
+}
 
 @media (max-width: 900px) {
     .contacteme{

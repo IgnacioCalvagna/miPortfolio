@@ -20,9 +20,9 @@ function App() {
       <div id="proyects">
       
           
+      <ContenedorProyectos /> 
       </div>
 
-      <ContenedorProyectos /> 
 
       <ContactMe />
       <Footer />

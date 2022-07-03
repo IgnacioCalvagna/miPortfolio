@@ -3,12 +3,17 @@ import { Navbar, Container, Nav } from "react-bootstrap";
 
 import "../assets/css/navbar.css";
 const navbar = () => {
+
+
+   const handleVerClick = (e) =>{
+      console.log(e)
+   }
   return (
     <>
       <Navbar  className='sticky-md-top' fixed={'top'}  bg="dark" variant="dark" expand="lg">
         <Container>
           <Navbar.Brand href="#home">Ignacio Calvanga </Navbar.Brand>
-          <Navbar.Toggle aria-controls="basic-navbar-nav" />
+          <Navbar.Toggle onClick={handleVerClick}  aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto" navbarScroll>
               <Nav.Link href="#home">Home</Nav.Link>
