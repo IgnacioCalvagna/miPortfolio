@@ -35,8 +35,9 @@ const handleSubmit= (e)=>{
   /*SERVICE_ID:  service_vfv9luh */
 
   Swal.fire(
-    'Good job!',
-    'You clicked the button!',
+    'Mensaje enviado!',
+    'Presione OK para continuar ',
+    
     'success'
   )
   console.log(miFormu)
