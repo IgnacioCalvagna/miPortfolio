@@ -1,43 +1,52 @@
-a{
+a {
     text-decoration: none;
 }
-.redes{
+
+.redes {
     width: 33%;
 }
 
-.download{
+.download {
     text-align: center;
-    
-    
+
+
 }
-.pDelFooter{
+
+.pDelFooter {
     text-align: center;
     margin-top: 5%;
 }
 
 @media (max-width: 1000px) {
-    .totFooter{
+    .download {
+        text-align: center;
+    }
+
+    .toti {
+        width: 100%;
+        display: block;
+    }
+
+    .totFooter {
         display: flex;
     }
-    .redes{
-        width: 33%;
-    }
-    .logoFooter{
-        width: 15%;
-    }
-    .MIP{
-        font-size: small;
-    }
-    .download{
+
+    .pDelFooter {
+        width: 100%;
         text-align: center;
-        
-        
+
     }
-    .pDelFooter{
-        text-align: center;
-        margin-top: 5%;
+
+    .redes {
+        width: 100%;
+        margin-bottom: 2;
     }
-    a{
+
+    .logo {
+        width: 6%;
+    }
+
+    a {
         text-decoration: none;
     }
 }

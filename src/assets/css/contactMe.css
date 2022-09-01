@@ -15,6 +15,10 @@
     font-size:1.3em;
     text-align: center;
 }
+.errores{
+    color:red;
+    opacity:3.9;
+}
 
 @media (max-width: 900px) {
     .contacteme{

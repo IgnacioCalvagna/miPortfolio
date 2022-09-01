@@ -19,8 +19,8 @@
 
 .downArrow{
     position: relative;
-    left: 55%;
-    bottom: -300px;
+    left: 70vh;
+    bottom: -10vw;
 }
 
 .info{
@@ -50,15 +50,16 @@
     }
 
     .laImg{
-        width: 100%;
+        width: 100vw;
+        
     }
     .header{
         
-        height: 855px;
+        height: 895px;
     }
 
     .yo{
-        top: -290px;
+        top: -80vh;
         left: 95px;
         z-index: 1150px;
         position: relative;
@@ -75,7 +76,9 @@
 
 
 @media (max-width: 450px) {
-
+    .laImg{
+        width: 100vw;
+    }
     .yo{
         top: -690px;
         left: 25px;
@@ -91,5 +94,9 @@
     }
     .limit2{
         font-size:xx-large;
+    }
+    .header{
+        width:100%;
+        height: 855px;
     }
 }

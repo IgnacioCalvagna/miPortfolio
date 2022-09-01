@@ -12,7 +12,7 @@ const navbar = () => {
     <>
       <Navbar  className='sticky-md-top' fixed={'top'}  bg="dark" variant="dark" expand="lg">
         <Container>
-          <Navbar.Brand href="#home">Ignacio Calvanga </Navbar.Brand>
+          <Navbar.Brand href="#home">Ignacio Calvagna </Navbar.Brand>
           <Navbar.Toggle onClick={handleVerClick}  aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto" navbarScroll>

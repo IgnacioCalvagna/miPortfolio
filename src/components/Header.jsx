@@ -2,7 +2,8 @@ import React from "react";
 import "../assets/css/header.css";
 import Rosa from "react-on-scroll-animation";
 import gif from "../assets/img/gif2.gif";
-import downArrow from "../assets/img/downArrow.png"
+import downArrow from "../assets/img/downArrow.png";
+import Typewriter from "typewriter-effect";
 
 const Header = () => {
   return (
@@ -12,8 +13,6 @@ const Header = () => {
           src={gif}
           alt="..."
           width="100%"
-
-          
           objetcfit="contain"
           autoPlay
           className="header"
@@ -21,15 +20,26 @@ const Header = () => {
       </div>
       <div className="yo">
         <Rosa animation="fade-right" anchorPlacement="top-bottom">
-          <span className="limit">Ignacio Calvagana</span>
+          <span className="limit">Ignacio Calvagna</span>
           <br />
-          <span className="limit2">Desarrollador Web Front-End FullStack</span>
+          <span className="limit2">
+          <Typewriter
+          options={{
+            autoStart: true,
+            loop: true,
+            delay: 80,
+            strings: ["Desarrollador Frontend", "Desarrollador Web FullStack"],
+          }}
+        />
+          </span>
         </Rosa>
+        
 
-      <a href="#aboutMe" > <img className="downArrow" src={downArrow} width='11%' alt="" /></a>
+        <a href="#aboutMe">
+          {" "}
+          <img className="downArrow" src={downArrow} width="11%" alt="" />
+        </a>
       </div>
-
-
     </>
   );
 };

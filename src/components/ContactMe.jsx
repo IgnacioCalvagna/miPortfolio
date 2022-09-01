@@ -1,78 +1,127 @@
-
 import React from "react";
-import axios from "axios";
-// import { useForm, ValidationError } from '@formspree/react';
-// import emailjs, { EmailJSResponseStatus } from '@emailjs/browser';
-import "../assets/css/contactMe.css";
-import useInput from "../hook/useInput";
 import Swal from "sweetalert2";
+import * as yup from "yup";
+import { useFormik } from "formik";
+import emailjs from "@emailjs/browser";
 
-
+import "../assets/css/contactMe.css";
 const ContactMe = () => {
+  const basicSchemas = yup.object().shape({
+    nombre: yup
+      .string("El nombre debe tener solamente letras")
+      .matches(/^[a-zA-Z]/, "el nombe debe teneer solo letras")
 
+      .min(2, "Nombre muy corto!")
+      .max(50, "Nombre muy largo!")
+      .required("El nombre es requerido"),
+    apellido: yup
+      .string()
+      .matches(/^[a-zA-Z]/, "el nombe debe teneer solo letras")
+      .min(2, "Apellido muy corto!")
+      .max(50, "Apellido muy largo!")
+      .required("El apellido es requerido"),
+    email: yup
+      .string()
+      .email("Debes ingresar un email valido")
+      .required("El email es requerido"),
+    telefono: yup
+      .number()
+      .required("El telefono es requerido"),
+    consulta: yup
+      .string()
+      .min(2, "Mensaje muy corto!")
+      .max(140, "Mensaje muy largo!")
+      .required("Es necesario que comentes algo"),
+  });
 
-  const nombre = useInput('')
-  const apellido =useInput('')
-  const email = useInput('')
-  const telefono=useInput(0)
-  const consulta =useInput('')
-  
-const handleSubmit= (e)=>{
-  e.preventDefault();
-  const miFormu={
-    nombre:nombre.value,
-    apellido:apellido.value,
-    email:email.value,
-    telefono:telefono.value,
-    consulta:consulta.value,
-
-  }
-
-
-  
-  axios.post("https://submit-form.com/sc5cNwnw",{miFormu})
-  
-  /*SERVICE_ID:  service_vfv9luh */
-
-  Swal.fire(
-    'Mensaje enviado!',
-    'Presione OK para continuar ',
-    
-    'success'
-  )
-  console.log(miFormu)
-}
+  const SendEmail = async (object) => {
+    await emailjs.send(
+      "server_porfolio",
+      "template_porfolio",
+      object,
+      "Avf8ZqlmCp25qpmjl"
+    );
+    await resetForm();
+    await Swal.fire(
+      "Good job!",
+      `Envio exitoso! 
+  te responderemos a la brevedad al email ${object.email}`,
+      "success"
+    );
+  };
+  const {
+    values,
+    errors,
+    touched,
+    handleSubmit,
+    handleChange,
+    handleBlur,
+    resetForm,
+  } = useFormik({
+    initialValues: {
+      nombre: "",
+      apellido: "",
+      email: "",
+      telefono: "",
+      consulta: "",
+    },
+    onSubmit: (values) => {
+      SendEmail(values);
+    },
+    validationSchema: basicSchemas,
+  });
 
   return (
     <div className=" container">
-      <h2 id="contactMe"  className="mih3">Contactame</h2>
+      <h2 id="contactMe" className="mih3">
+        Contactame
+      </h2>
 
+      <p className="parrafito container">
+        Si te gustó mi trabajo no dudes con consultarme. con gusto responderé tu
+        consulta lo mas rápido que pueda{" "}
+      </p>
 
-      <p className="parrafito container">Si te gusto mi trabajo no dudes con consultarme. con gusto respondere tu  consulta lo mas rapido que pueda </p>
-      <form id='miform' action='https://submit-form.com/sc5cNwnw' className="miForm" onSubmit={handleSubmit}>
+      <form
+        id="miform"
+        action="https://submit-form.com/sc5cNwnw"
+        className="miForm"
+        onSubmit={handleSubmit}
+      >
         <div className="row">
           <div className="col-6">
             <label htmlFor="">Nombre</label>
             <input
               type="text"
               className="form-control"
-              placeholder="First name"
+              placeholder="Nombre"
               aria-label="First name"
-              {...nombre}
-              required={true}
+              name="nombre"
+              value={values.nombre}
+              onChange={handleChange}
+              onBlur={handleBlur}
             />
+            {touched.nombre && errors.nombre && (
+              <span className="errores">{errors.nombre}</span>
+            )}
           </div>
+
           <div className="col-6">
             <label htmlFor="">Apellido</label>
 
             <input
               type="text"
               className="form-control"
-              placeholder="Last name"
+              placeholder="Apellido"
               aria-label="Last name"
-              {...apellido}
-              required={true}
+              name="apellido"
+              value={values.apellido}
+              onChange={handleChange}
+              onBlur={handleBlur}
             />
+            {touched.apellido && errors.apellido && (
+              <span className="errores">{errors.apellido}</span>
+            )}
           </div>
         </div>
         <div>
@@ -82,20 +131,30 @@ const handleSubmit= (e)=>{
             className="form-control"
             placeholder="Email"
             aria-label="Email"
-            {...email}
-            required={true}
+            name="email"
+            value={values.email}
+            onChange={handleChange}
+            onBlur={handleBlur}
           />
+          {touched.email && errors.email && (
+            <span className="errores">{errors.email}</span>
+          )}
         </div>
         <div>
           <label htmlFor="">Telefono</label>
           <input
-            type="tel"
+            type="text"
             className="form-control"
             placeholder="Phone nunber"
             aria-label="Telefono"
-            {...telefono}
-            required={true}
+            name="telefono"
+            value={values.telefono}
+            onChange={handleChange}
+            onBlur={handleBlur}
           />
+          {touched.telefono && errors.telefono && (
+            <span className="errores">{errors.telefono}</span>
+          )}
         </div>
         <div>
           <label htmlFor="exampleFormControlTextarea1" className="form-label">
@@ -105,12 +164,17 @@ const handleSubmit= (e)=>{
             className="col-4 form-control"
             id="exampleFormControlTextarea1"
             rows="3"
-            {...consulta}
-            required={true}
-          ></textarea>
+            name="consulta"
+            value={values.consulta}
+            onChange={handleChange}
+            onBlur={handleBlur}
+          />
+          {touched.consulta && errors.consulta && (
+            <span className="errores">{errors.consulta}</span>
+          )}
         </div>
         <div className="sendBtn">
-          <button className="btn btn-dark" type="submit" >
+          <button className="btn btn-dark" type="submit">
             Enviar
           </button>
         </div>
