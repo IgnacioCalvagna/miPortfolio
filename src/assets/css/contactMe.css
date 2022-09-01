@@ -3,7 +3,10 @@
     width: 80%;
 }
 .sendBtn{
-    margin-bottom: 5%;
+    margin-top: 5%;
+    margin-bottom:5%;
+    margin-top:0 auto;
+    text-align: center;
 }
 .mih3{
     text-align: center;

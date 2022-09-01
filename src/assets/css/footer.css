@@ -3,18 +3,31 @@ a {
 }
 
 .redes {
-    width: 33%;
+    width: 50%;    
 }
-
+.donde{
+    width: 50%;
+}
 .download {
     text-align: center;
-
-
 }
 
 .pDelFooter {
     text-align: center;
     margin-top: 5%;
+}
+.b{
+    margin-top: 5%;
+}
+.footerTot {
+   
+}
+.infoFooter{
+    width: 100%;
+    display: flex;
+    justify-content:space-evenly;
+    margin:0 auto;
+    text-align: center;
 }
 
 @media (max-width: 1000px) {
@@ -45,7 +58,21 @@ a {
     .logo {
         width: 6%;
     }
-
+    .infoFooter{
+        width: 100%;
+        display: block;
+        justify-content:space-evenly;
+        margin:0 auto;
+        text-align: center;
+    }
+    .redes {
+        width: 100%;    
+        margin-top: 5%;
+    }
+    .donde{
+        width: 100%;
+        margin-top: 10%;
+    }
     a {
         text-decoration: none;
     }

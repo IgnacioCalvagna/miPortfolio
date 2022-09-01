@@ -19,7 +19,7 @@
 
 .downArrow{
     position: relative;
-    left: 70vh;
+    left: 50%;
     bottom: -10vw;
 }
 
@@ -33,7 +33,7 @@
      padding:0;
  }
  .limit2{
-    font-size:xxx-large;
+    font-size:xx-large;
     width: 50%;
     margin:0;
     padding:0;
@@ -50,7 +50,7 @@
     }
 
     .laImg{
-        width: 100vw;
+        width: 100%;
         
     }
     .header{
@@ -75,10 +75,16 @@
 
 
 
-@media (max-width: 450px) {
+@media (max-width: 660px) {
     .laImg{
-        width: 100vw;
+        width: 100%;
     }
+    .downArrow{
+        position: relative;
+        bottom: -9em;
+        left: 55%;
+    }
+
     .yo{
         top: -690px;
         left: 25px;
