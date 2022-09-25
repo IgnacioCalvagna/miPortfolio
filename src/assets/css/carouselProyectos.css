@@ -1,3 +1,10 @@
+a{
+    text-decoration: none;
+    color:white;
+}
+a:hover{
+    color:white;
+}
 .totCarru{
     margin-top:8%;
     margin-bottom:8%;

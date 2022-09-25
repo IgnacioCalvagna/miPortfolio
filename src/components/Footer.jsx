@@ -4,6 +4,7 @@ import "../assets/css/footer.css";
 import github from "../assets/img/githubFooter.png";
 import lin from "../assets/img/in.png";
 import ig from "../assets/img/ig.png";
+import location from '../assets/img/location.png'
 
 const Footer = () => {
   return (
@@ -18,6 +19,7 @@ const Footer = () => {
 
       <section className="infoFooter">
         <div className="donde">
+            <img src={location} width="5%" alt="" />
           <p>
             {" "}
             Buenos Aires <br />
