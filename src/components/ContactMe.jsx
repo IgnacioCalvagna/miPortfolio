@@ -90,7 +90,7 @@ const ContactMe = () => {
       >
         <div className="row">
           <div className="col-6">
-            <label htmlFor="">Nombre</label>
+            <label htmlFor="">Nombre <span className="errores">*</span></label>
             <input
               type="text"
               className="form-control"
@@ -107,7 +107,7 @@ const ContactMe = () => {
           </div>
 
           <div className="col-6">
-            <label htmlFor="">Apellido</label>
+            <label htmlFor="">Apellido <span className="errores">*</span></label>
 
             <input
               type="text"
@@ -125,7 +125,7 @@ const ContactMe = () => {
           </div>
         </div>
         <div>
-          <label htmlFor="">Email</label>
+          <label htmlFor="">Email <span className="errores">*</span></label>
           <input
             type="email"
             className="form-control"
@@ -141,7 +141,7 @@ const ContactMe = () => {
           )}
         </div>
         <div>
-          <label htmlFor="">Telefono</label>
+          <label htmlFor="">Telefono <span className="errores">*</span></label>
           <input
             type="text"
             className="form-control"
@@ -158,12 +158,13 @@ const ContactMe = () => {
         </div>
         <div>
           <label htmlFor="exampleFormControlTextarea1" className="form-label">
-            Example textarea
+           Consulta <span className="errores">*</span>
           </label>
           <textarea
             className="col-4 form-control"
             id="exampleFormControlTextarea1"
             rows="3"
+            placeholder="escribe el motivo de tu mensaje..."
             name="consulta"
             value={values.consulta}
             onChange={handleChange}

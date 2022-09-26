@@ -30,13 +30,13 @@ const Footer = () => {
         <div className="redes" style={{ float: "left" }}>
           <p>Podes encontrarme en :</p>
 
-          <a href="https://github.com/IgnacioCalvagna/">
+          <a href="https://github.com/IgnacioCalvagna/" target="_blank" rel="noopener noreferrer">
             <img className="logo" src={github} width="8%" alt="GitHub" />
           </a>
-          <a href="https://www.linkedin.com/in/ignacio-calvagna/">
+          <a href="https://www.linkedin.com/in/ignacio-calvagna/" target="_blank" rel="noopener noreferrer">
             <img className="logo" src={lin} width="6.8%" alt="Linkedin" />
           </a>
-          <a href="https://www.instagram.com/nachitocal/">
+          <a href="https://www.instagram.com/nachitocal/" target="_blank" rel="noopener noreferrer">
           <img className="logo" src={ig} width="5.5%" alt="Instagram" />
           </a>
         </div>
