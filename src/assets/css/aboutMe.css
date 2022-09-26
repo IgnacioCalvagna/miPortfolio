@@ -21,6 +21,7 @@
 @media (max-width: 1000px) {
     .total{
         display: block;
+        margin-bottom: 0;
     }    
     .tresCuartos{
         width: 90%;
@@ -41,7 +42,7 @@
     }
     .sobreMi{
         width:100%;
-        font-size: 1.199em;
+        font-size: medium;
         text-align: center;
         align-items: center;
         word-wrap: break-word;

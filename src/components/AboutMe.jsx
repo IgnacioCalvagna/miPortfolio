@@ -12,7 +12,7 @@ import postman from "../assets/img/skills/postman.png";
 import github from "../assets/img/skills/github.png";
 import bootstrap from "../assets/img/skills/bootstrap.png";
 import psql from "../assets/img/skills/psql.png";
-import mongo from '../assets/img/skills/mongo.png'
+import mongo from "../assets/img/skills/mongo.png";
 
 const AboutMe = () => {
   return (
@@ -21,9 +21,9 @@ const AboutMe = () => {
       <h3 className="miH3"> Acerca de mi</h3>
       <div className="total ">
         {" "}
-        <div className="tresCuartos container ">
+        <section className="tresCuartos container ">
           {" "}
-          <p className="sobreMi container">
+          <p className="sobreMi ">
             {/* Acerca de mi <br /> */}
             Hola 👋🏻 <br />
             Me presento, mi nombre es Ignacio Calvagna y tengo 28 años. Soy
@@ -44,7 +44,7 @@ const AboutMe = () => {
             Aspiro perfeccionar mis habilidades frontend todos los días y
             conseguir un trabajo en el mundo IT.
           </p>
-        </div>
+        </section>
         <div className="cuarto">
           <Rosa animation={"zoom-in-left"}>
             <h3>Skills</h3>
