@@ -16,15 +16,11 @@ import mongo from "../assets/img/skills/mongo.png";
 
 const AboutMe = () => {
   return (
-    <>
-      {" "}
+    <section className="todoDemi ">
       <h3 className="miH3"> Acerca de mi</h3>
       <div className="total ">
-        {" "}
-        <section className="tresCuartos container ">
-          {" "}
-          <p className="sobreMi ">
-            {/* Acerca de mi <br /> */}
+        <section className="tresCuartos   ">
+          <p className="sobreMi container ">
             Hola 👋🏻 <br />
             Me presento, mi nombre es Ignacio Calvagna y tengo 28 años. Soy
             Desarrollador Web Full Stack orientado en Front-End. Hace algunos
@@ -70,7 +66,7 @@ const AboutMe = () => {
           </Rosa>
         </div>
       </div>
-    </>
+    </section>
   );
 };
 

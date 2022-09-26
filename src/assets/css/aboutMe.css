@@ -1,3 +1,6 @@
+.todoDemi{
+    width:100vw;
+}
 .miH3{
     text-align: center;
 }
@@ -12,10 +15,11 @@
 }
 .cuarto{
     width: 40%;
+    text-align: center;
 }
 .sobreMi{
     width:90%;
-    /* word-break:break-all; */
+    word-break:break-all;
 }
 
 @media (max-width: 1000px) {
@@ -24,7 +28,7 @@
         margin-bottom: 0;
     }    
     .tresCuartos{
-        width: 90%;
+        width: 100%;
         margin: 0 auto;
     }
     .cuarto{

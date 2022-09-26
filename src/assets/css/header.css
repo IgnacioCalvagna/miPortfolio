@@ -1,10 +1,8 @@
-*{
-    padding:0;
-    margin:0;
-}
+
 .header{
-    opacity: .5;    
-    height:1040px;
+    opacity: .5; 
+    width:100vw;   
+    height:100vh;
     
 }
 .headDesc{

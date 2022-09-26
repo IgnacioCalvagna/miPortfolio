@@ -12,7 +12,7 @@ const Header = () => {
         <img
           src={gif}
           alt="..."
-          width="100%"
+          // width="100vw"
           objetcfit="contain"
           autoPlay
           className="header"
