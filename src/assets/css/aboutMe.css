@@ -27,7 +27,7 @@
     opacity: 0.7
 }
 .logos:hover{
-    width: 16%;
+    width: 26%;
     opacity: 1;
 }
 
@@ -53,8 +53,11 @@
         margin-bottom: 5%;
         text-align: center;
         margin:0 auto;
+        
     }
-   
+    .logos{
+        width: 25%;
+    }
     .sendBtn{
         margin-top: 4%;
     }
