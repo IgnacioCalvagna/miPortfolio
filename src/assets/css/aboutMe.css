@@ -31,11 +31,12 @@
     opacity: 1;
 }
 
+
 @media (max-width: 1000px) {
     .todoDemi{
         width:100vw;
         height:100vh;
-        margin-bottom: 50%;
+        margin-bottom: 100%;
     }
     .total{
         display: block;
