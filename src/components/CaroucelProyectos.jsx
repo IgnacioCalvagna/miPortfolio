@@ -9,6 +9,7 @@ const CaroucelProyectos = ({ proyectos }) => {
    const fotos = [sativa,imas,satindica,gift]
   return (
     <div className="totCarru">
+      <h2 style={{textAlign: 'center'}} > Proyectos</h2>
       <Carousel>
         {proyectos.map((p, i, img) => {
           return (
@@ -23,7 +24,7 @@ const CaroucelProyectos = ({ proyectos }) => {
                       <img  src={fotos[i]} width={'100%'} height={'auto'} objetcfit="contain" alt="First slide" />
                     </div>
                     <div>
-                      <h4>{p.description}</h4>
+                    <h4 className="descriptionProject">{p.description.slice(0,100)}...</h4>
                     </div>
                   </div>
                 </>
@@ -38,7 +39,7 @@ const CaroucelProyectos = ({ proyectos }) => {
                       <img  src={fotos[i]} width={'100%'} height={'auto'} objetcfit="contain" alt="First slide" />
                     </div>
                     <div>
-                      <h4>{p.description}</h4>
+                      <h4 className="descriptionProject">{p.description.slice(0,100)}...</h4>
                     </div>
                     </a>
                   </div>

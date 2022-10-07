@@ -9,14 +9,13 @@ const ContactMe = () => {
   const basicSchemas = yup.object().shape({
     nombre: yup
       .string("El nombre debe tener solamente letras")
-      .matches(/^[a-zA-Z]/, "el nombe debe teneer solo letras")
-
       .min(2, "Nombre muy corto!")
       .max(50, "Nombre muy largo!")
+      .matches(/^[a-zA-Z]/, "El nombre debe teneer solo letras")
       .required("El nombre es requerido"),
     apellido: yup
       .string()
-      .matches(/^[a-zA-Z]/, "el nombe debe teneer solo letras")
+      .matches(/^[a-zA-Z]/, "El apellido debe teneer solo letras")
       .min(2, "Apellido muy corto!")
       .max(50, "Apellido muy largo!")
       .required("El apellido es requerido"),

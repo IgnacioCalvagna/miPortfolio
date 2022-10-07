@@ -1,6 +1,5 @@
 import React from "react";
 import "../assets/css/aboutMe.css";
-// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Rosa from "react-on-scroll-animation";
 import html from "../assets/img/skills/html.png";
 import css from "../assets/img/skills/css.png";

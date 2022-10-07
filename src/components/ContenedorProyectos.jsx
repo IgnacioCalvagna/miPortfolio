@@ -12,7 +12,6 @@ const ContenedorProyectos = () => {
 
   return (
     <>
-        <h2 style={{textAlign: 'center'}} > Proyectos</h2>
       <CaroucelProyectos proyectos={proyectos} />
     </>
   );

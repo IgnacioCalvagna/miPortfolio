@@ -24,3 +24,7 @@ a:hover{
     text-align:center;
     float:right;
 }
+.descriptionProject{
+    line-break:normal;
+    text-align:center;
+}
